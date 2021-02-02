@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+        
+        <title>PokeCity</title>
+    </head>
+    <body>
+        <script lang="javascript" type="text/javascript" src="index.js"></script>
+
+        <h1>PokeCity</h1>
+        <h5>Por Thiago H. M. Dos Santos</h5>
+
+        <form autocomplete="off" spellcheck="false" onsubmit="manager(event)">
+            <label for="cName">Escreva o nome da cidade:</label><br>
+            <input type="text" id="cName" name="cName">
+        </form>
+
+        <p id="printTemp"></p>
+        <div class="middle">
+            <iframe src="https://www.rainviewer.com/map.html?loc=46.9315,-123.6401,7&oFa=0&oC=0&oU=0&oCS=1&oF=1&oAP=0&rmt=4&c=1&o=83&lm=0&th=0&sm=1&sn=1" frameborder="0" style="border:0;height:45vh;width:100vh;" allowfullscreen></iframe>
+        </div>
+        <p id="printPoke"></p>
+    </body>
+</html>
